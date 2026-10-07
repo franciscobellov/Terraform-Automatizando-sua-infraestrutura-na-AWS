@@ -1,0 +1,27 @@
+# Directorios locales de Terraform
+**/.terraform/*
+
+# Archivos de estado (pueden contener secretos)
+*.tfstate
+*.tfstate.*
+
+# Logs de fallos
+crash.log
+crash.*.log
+
+# Archivos de variables con datos sensibles
+*.tfvars
+*.tfvars.json
+
+# Overrides locales
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan guardado
+*.tfplan
+
+# Configuración de CLI
+.terraformrc
+terraform.rc
