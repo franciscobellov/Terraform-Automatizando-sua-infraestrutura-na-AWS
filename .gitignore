@@ -25,3 +25,6 @@ override.tf.json
 # Configuración de CLI
 .terraformrc
 terraform.rc
+build/
+*/terraform.tfstate.backup
+*/mykey*
