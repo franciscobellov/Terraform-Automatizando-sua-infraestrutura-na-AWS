@@ -28,3 +28,4 @@ terraform.rc
 build/
 */terraform.tfstate.backup
 */mykey*
+.terraform.lock.hcl
